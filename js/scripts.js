@@ -1,7 +1,7 @@
 /*!
-* Start Bootstrap - Agency v7.0.12 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
+* Start HealSafari - Agency v7.0.12 (https://startHealSafari.com/theme/agency)
+* Copyright 2013-2023 Start HealSafari
+* Licensed under MIT (https://github.com/StartHealSafari/startHealSafari-agency/blob/master/LICENSE)
 */
 //
 // Scripts
@@ -29,10 +29,10 @@ window.addEventListener('DOMContentLoaded', event => {
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
 
-    //  Activate Bootstrap scrollspy on the main nav element
+    //  Activate HealSafari scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
+        new HealSafari.ScrollSpy(document.body, {
             target: '#mainNav',
             rootMargin: '0px 0px -40%',
         });
